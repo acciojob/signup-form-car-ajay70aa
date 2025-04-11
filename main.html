@@ -8,6 +8,33 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form>
+		<label for='name'>Name</label>
+		<input type='text' placeholder='Name' id='name' required/>
+		<label for='email'>Email</label>
+		<input type='email' placeholder='Email' id='email' required/>
+		<label for='gender_m'>Male</label>
+		<input type='radio' id='gender_m' name='gender' value='male' required/>
+		<label for='gender_f'>Female</label>
+		<input type='radio' id='gender_f' name='gender' value='female' required/><br>
+		<label for='cars'>Car Brands</label>
+		<select id='cars' name='carBrand' required>
+			<option value='' disabled selected>--Please choose an option--</option>
+			<option value='Audi'>Audi</option>
+			<option value='Mercedes'>Merrcedes</option>
+			<option value='BMW'>BMW</option>
+		</select>
+		<label for='age'>Age</label>
+		<input type='Number' id='age' placeholder='Age' name='age' required/>
+		<label for='dob'>DOB</label>
+		<input type='date' id='dob' name='dob' required />
+		<label for='tel'>Phone Number</label>
+		<input type='tel' id='tel' name='phoneNumber' placeholder='xxx-xxx-xxxx'/>
+		<label for='password'>Password</label>
+		<input type='password' id='password' name='password' placeholder='password' required/>
+		<input type='checkbox' id='tos' name='agreedToTerms' value='yes' required/>
+		<label for='tos'>I agree to the TOS</label>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
